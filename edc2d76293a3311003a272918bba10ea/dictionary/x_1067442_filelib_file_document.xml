@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="12d293a293a3311003a272918bba1097" display="true" label="File Document" max_length="40" name="x_1067442_filelib_file_document" type="collection">
+        <element default="true" label="active" max_length="40" name="active" type="boolean"/>
+        <element label="Approver" max_length="40" name="approver" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="&quot;Draft&quot; " display="true" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Draft" value="&quot;Draft&quot;"/>
+                <element inactive_on_update="false" label="Review" value="&quot;Review&quot;"/>
+                <element inactive_on_update="false" label="Publish" sequence="0" value="&quot;Publish&quot;"/>
+            </choice>
+        </element>
+        <element label="Upload" max_length="40" name="upload" type="file_attachment"/>
+    </element>
+</database>

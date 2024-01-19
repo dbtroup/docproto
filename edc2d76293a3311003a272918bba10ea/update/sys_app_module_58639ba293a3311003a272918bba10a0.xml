@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="File Document">d8639ba293a3311003a272918bba109c</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>File Documents</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1067442_filelib_file_document</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1067442_filelib.file_document_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 17:44:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>58639ba293a3311003a272918bba10a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>File Documents</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="filelib" source="x_1067442_filelib">edc2d76293a3311003a272918bba10ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="filelib">edc2d76293a3311003a272918bba10ea</sys_scope>
+        <sys_update_name>sys_app_module_58639ba293a3311003a272918bba10a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 17:44:38</sys_updated_on>
+        <timeline_page/>
+        <title>File Documents</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
