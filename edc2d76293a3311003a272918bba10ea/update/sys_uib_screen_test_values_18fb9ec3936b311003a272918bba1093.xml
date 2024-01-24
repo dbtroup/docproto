@@ -10,20 +10,20 @@
   "views" : "",
   "query" : "",
   "sysId" : "-1",
-  "table" : "file document"
+  "table" : "x_1067442_filelib_file_document"
 }</macroponent_config>
         <screen display_value="Default">90fb1ac3936b311003a272918bba100d</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 02:59:23</sys_created_on>
         <sys_id>18fb9ec3936b311003a272918bba1093</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package display_value="filelib" source="x_1067442_filelib">edc2d76293a3311003a272918bba10ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="filelib">edc2d76293a3311003a272918bba10ea</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_18fb9ec3936b311003a272918bba1093</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-19 07:15:22</sys_updated_on>
+        <sys_updated_on>2024-01-24 18:55:33</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

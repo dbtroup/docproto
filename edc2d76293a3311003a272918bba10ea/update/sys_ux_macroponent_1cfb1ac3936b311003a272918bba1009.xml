@@ -5,7 +5,7 @@
         <component_dependencies/>
         <composition>[ {
   "elementId" : "custom_1",
-  "elementLabel" : "Custom 1",
+  "elementLabel" : "edit_file_doc",
   "propertyValues" : {
     "labelledby" : {
       "type" : "JSON_LITERAL",
@@ -118,12 +118,57 @@
           "isNonDestructive" : false,
           "items" : [ ],
           "styles" : null
+        }, {
+          "elementId" : "heading_3",
+          "elementLabel" : "Heading 3",
+          "propertyValues" : {
+            "hasNoMargin" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "level" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "header-primary"
+            },
+            "wontWrap" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "Update ",
+                "comment" : ""
+              }
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "extensionPoints" : [ ],
+          "isNonDestructive" : false,
+          "items" : [ ],
+          "styles" : null
         } ],
         "layout" : {
           "default" : {
             "children" : null,
             "isInline" : null,
-            "items" : [{"element_id":"heading_2","styles":{"flex":"custom"}}],
+            "items" : [{"element_id":"heading_3","styles":{"padding":"var(--now-static-space--lg)"}},{"element_id":"heading_2","styles":{"flex":"custom"}}],
             "root" : null,
             "rules" : null,
             "styles" : {"flex-direction":"row","display":"flex","justify-content":"center","align-items":"center","padding":"var(--now-static-space--xxs)","margin":"var(--now-static-space--xxs)"},
@@ -493,7 +538,7 @@
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
                     "code" : null,
-                    "message" : "Save",
+                    "message" : "Update",
                     "comment" : ""
                   }
                 },
@@ -1431,7 +1476,7 @@
   "disabled" : false
 }, {
   "name" : "table",
-  "label" : "Table",
+  "label" : "table",
   "fieldType" : "string",
   "typeMetadata" : null,
   "valueType" : "string",
@@ -1464,7 +1509,10 @@
   "message" : "New",
   "comment" : ""
 }, {
-  "message" : "Save",
+  "message" : "Update",
+  "comment" : ""
+}, {
+  "message" : "Update ",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -1487,14 +1535,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 02:59:23</sys_created_on>
         <sys_id>1cfb1ac3936b311003a272918bba1009</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="filelib" source="x_1067442_filelib">edc2d76293a3311003a272918bba10ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="filelib">edc2d76293a3311003a272918bba10ea</sys_scope>
         <sys_update_name>sys_ux_macroponent_1cfb1ac3936b311003a272918bba1009</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-23 02:57:43</sys_updated_on>
+        <sys_updated_on>2024-01-24 18:55:33</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=1cfb1ac3936b311003a272918bba1009"/>
 </record_update>
