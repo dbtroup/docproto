@@ -168,7 +168,7 @@
           "default" : {
             "children" : null,
             "isInline" : null,
-            "items" : [{"element_id":"heading_3","styles":{"padding":"var(--now-static-space--lg)","border-color":"RGB(var(--now-color--neutral-5))","border-width":"var(--now-static-space--xxs)","border-style":"solid"}},{"element_id":"heading_2","styles":{"flex":"custom","border-color":"RGB(var(--now-color--neutral-5))","border-width":"var(--now-static-space--xxs)","border-style":"solid","background":"rgb(var(--now-color--neutral-1))"}}],
+            "items" : [{"element_id":"heading_3","styles":{"border-color":"RGB(var(--now-color--neutral-5))","border-width":"var(--now-static-space--xxs)","border-style":"id","margin":"var(--now-static-space--xxs)"}},{"element_id":"heading_2","styles":{"flex":"none","border-color":"RGB(var(--now-color--neutral-5))","border-width":"var(--now-static-space--xxs)","border-style":"id","background":"rgb(var(--now-color--neutral-5))","padding":"var(--now-static-space--xxs)","margin":"var(--now-static-space--xxs)"}}],
             "root" : null,
             "rules" : null,
             "styles" : {"flex-direction":"row","display":"flex","justify-content":"center","align-items":"center","padding":"var(--now-static-space--xxs)","margin":"var(--now-static-space--xxs)"},
@@ -624,7 +624,7 @@
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"element_id":"header_1","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column","border-color":"RGB(var(--now-color--neutral-5))","border-width":"var(--now-static-space--xxs)","border-style":"solid"}},{"element_id":"body_1","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column","flex-grow":1.5}},{"element_id":"footer_1","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column"}}],
+        "items" : [{"element_id":"header_1","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column","border-color":"rgb(var(--now-color_background--tertiary))","border-width":"var(--now-static-space--xxs)","border-style":"solid","background":"rgb(var(--now-color--neutral-5))"}},{"element_id":"body_1","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column","flex-grow":1.5}},{"element_id":"footer_1","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column"}}],
         "root" : null,
         "rules" : null,
         "styles" : {"flex-direction":"column","gap":"var(--now-static-space--lg)"},
@@ -1313,10 +1313,10 @@
           "default" : {
             "children" : null,
             "isInline" : null,
-            "items" : [{"element_id":"heading_5","styles":{"margin":"var(--now-static-space--xxs)","padding":"var(--now-static-space--xxs)","flex":"none"}},{"element_id":"heading_4","styles":{"margin":"var(--now-static-space--lg)","padding":"var(--now-static-space--lg)","border-color":"RGB(var(--now-color--neutral-5))","border-width":"var(--now-static-space--xxs)","border-style":"solid"}}],
+            "items" : [{"element_id":"heading_5","styles":{"margin":"var(--now-static-space--xxs)","padding":"var(--now-static-space--xxs)","flex":"none","border-color":"RGB(var(--now-color--neutral-5))","border-width":"var(--now-static-space--xxs)","border-style":"id"}},{"element_id":"heading_4","styles":{"margin":"var(--now-static-space--xxs)","padding":"var(--now-static-space--xxs)","border-color":"rgb(var(--now-color--neutral-5))","border-width":"var(--now-static-space--xxs)","border-style":"id","flex":"none"}}],
             "root" : null,
             "rules" : null,
-            "styles" : {"flex-direction":"row","display":"flex","justify-content":"center","margin":"var(--now-static-space--lg)","align-items":"baseline"},
+            "styles" : {"flex-direction":"row","display":"flex","justify-content":"center","margin":"var(--now-static-space--xxs)","padding":"var(--now-static-space--xxs)"},
             "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
             "type" : "flex"
           },
@@ -1765,7 +1765,7 @@
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"element_id":"header_2","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column","flex":"none"}},{"element_id":"body_2","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column","flex-grow":1.5}},{"element_id":"footer_2","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column"}}],
+        "items" : [{"element_id":"header_2","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column","flex":"none","background":"rgb(var(--now-color--neutral-5))","border-color":"RGB(var(--now-color--neutral-5))","border-width":"var(--now-static-space--xxs)","border-style":"solid"}},{"element_id":"body_2","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column","flex-grow":1.5}},{"element_id":"footer_2","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column"}}],
         "root" : null,
         "rules" : null,
         "styles" : {"flex-direction":"column","gap":"var(--now-static-space--lg)"},
@@ -2169,14 +2169,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 02:59:23</sys_created_on>
         <sys_id>1cfb1ac3936b311003a272918bba1009</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="filelib" source="x_1067442_filelib">edc2d76293a3311003a272918bba10ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="filelib">edc2d76293a3311003a272918bba10ea</sys_scope>
         <sys_update_name>sys_ux_macroponent_1cfb1ac3936b311003a272918bba1009</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-24 19:31:24</sys_updated_on>
+        <sys_updated_on>2024-01-25 03:50:12</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=1cfb1ac3936b311003a272918bba1009"/>
 </record_update>
