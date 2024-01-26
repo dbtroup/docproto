@@ -459,7 +459,7 @@
           "overrides" : {
             "composition" : [ {
               "elementId" : "button_3",
-              "elementLabel" : "Button 3",
+              "elementLabel" : "cancel_update_button",
               "propertyValues" : {
                 "size" : {
                   "type" : "JSON_LITERAL",
@@ -516,7 +516,7 @@
               "styles" : null
             }, {
               "elementId" : "button_4",
-              "elementLabel" : "Button 4",
+              "elementLabel" : "update_button",
               "propertyValues" : {
                 "size" : {
                   "type" : "JSON_LITERAL",
@@ -925,7 +925,7 @@
       "overrides" : {
         "composition" : [ {
           "elementId" : "button_2",
-          "elementLabel" : "NewButton",
+          "elementLabel" : "new_button",
           "propertyValues" : {
             "size" : {
               "type" : "JSON_LITERAL",
@@ -1019,7 +1019,7 @@
           "styles" : null
         }, {
           "elementId" : "button_1",
-          "elementLabel" : "editButton",
+          "elementLabel" : "edit_button",
           "propertyValues" : {
             "size" : {
               "type" : "JSON_LITERAL",
@@ -1600,7 +1600,7 @@
           "overrides" : {
             "composition" : [ {
               "elementId" : "button_5",
-              "elementLabel" : "Button 5",
+              "elementLabel" : "cancel_create_button",
               "propertyValues" : {
                 "size" : {
                   "type" : "JSON_LITERAL",
@@ -1657,7 +1657,7 @@
               "styles" : null
             }, {
               "elementId" : "button_6",
-              "elementLabel" : "Button 6",
+              "elementLabel" : "create_button",
               "propertyValues" : {
                 "size" : {
                   "type" : "JSON_LITERAL",
@@ -2169,14 +2169,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 02:59:23</sys_created_on>
         <sys_id>1cfb1ac3936b311003a272918bba1009</sys_id>
-        <sys_mod_count>74</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="filelib" source="x_1067442_filelib">edc2d76293a3311003a272918bba10ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="filelib">edc2d76293a3311003a272918bba10ea</sys_scope>
         <sys_update_name>sys_ux_macroponent_1cfb1ac3936b311003a272918bba1009</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-25 03:50:12</sys_updated_on>
+        <sys_updated_on>2024-01-25 06:29:14</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=1cfb1ac3936b311003a272918bba1009"/>
 </record_update>
