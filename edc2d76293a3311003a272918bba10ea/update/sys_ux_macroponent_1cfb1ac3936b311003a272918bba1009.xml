@@ -1019,7 +1019,7 @@
             }
           },
           "eventMappings" : [ {
-            "eventMappingId" : "clrbbbccyjjiaaccikccaahhofoddccljbr",
+            "eventMappingId" : "clsbbezmwaaaccitccaahhooilffludp",
             "isConfiguration" : false,
             "offRowStorageId" : null,
             "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
@@ -1032,28 +1032,15 @@
             "sourceEventSysId" : null,
             "targets" : [ {
               "broker" : null,
-              "clientScript" : null,
+              "clientScript" : {
+                "sysId" : "54765ffd9308021003a272918bba10cd"
+              },
               "conditional" : null,
               "declarativeAction" : null,
-              "event" : {
-                "apiName" : "x_1067442_filelib.MODAL_SELECTED_RELAY_1cfb1ac3936b311003a272918bba1009",
-                "payload" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : {
-                    "modalId" : "[component-id$='custom_3']",
-                    "showModal" : true,
-                    "displayOptions" : null,
-                    "bare" : true,
-                    "viewportElementId" : null,
-                    "viewportRoute" : null,
-                    "viewportFields" : null
-                  }
-                },
-                "sysId" : "c7cb61339323b11003a272918bba107c"
-              },
+              "event" : null,
               "operation" : null,
-              "targetId" : "clrbbbccyjjiaaccilccaahhoaaaewiegy",
-              "type" : "EVENT"
+              "targetId" : "clsbbezmwaaacciuccaahhobbhhkxneevp",
+              "type" : "CLIENT_SCRIPT"
             } ]
           } ],
           "slot" : null,
@@ -2246,14 +2233,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 02:59:23</sys_created_on>
         <sys_id>1cfb1ac3936b311003a272918bba1009</sys_id>
-        <sys_mod_count>86</sys_mod_count>
+        <sys_mod_count>87</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="filelib" source="x_1067442_filelib">edc2d76293a3311003a272918bba10ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="filelib">edc2d76293a3311003a272918bba10ea</sys_scope>
         <sys_update_name>sys_ux_macroponent_1cfb1ac3936b311003a272918bba1009</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-31 02:31:06</sys_updated_on>
+        <sys_updated_on>2024-01-31 06:36:47</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=1cfb1ac3936b311003a272918bba1009"/>
 </record_update>
