@@ -580,7 +580,7 @@
                 }
               },
               "eventMappings" : [ {
-                "eventMappingId" : "clsaaqsyaeaaccgaccaahhoekauahdt",
+                "eventMappingId" : "clsbbfqyqaaaaccmpccaahhojjffcggtwffy",
                 "isConfiguration" : false,
                 "offRowStorageId" : null,
                 "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
@@ -593,21 +593,15 @@
                 "sourceEventSysId" : null,
                 "targets" : [ {
                   "broker" : null,
-                  "clientScript" : null,
+                  "clientScript" : {
+                    "sysId" : "6cdadbf59348021003a272918bba10ad"
+                  },
                   "conditional" : null,
                   "declarativeAction" : null,
                   "event" : null,
-                  "operation" : {
-                    "dataBrokerId" : "029f04e053610110ac9bddeeff7b1294",
-                    "operationName" : "CTRL_RECORD#SAVE_FORM",
-                    "parentResourceId" : "form_1",
-                    "payload" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : { }
-                    }
-                  },
-                  "targetId" : "clsaaqsyaeaaccgbccaahhoggwggfftyggq",
-                  "type" : "DATABROKER_OP"
+                  "operation" : null,
+                  "targetId" : "clsbbfqyqaaaaccmqccaahhosvqkccpccii",
+                  "type" : "CLIENT_SCRIPT"
                 } ]
               } ],
               "slot" : null,
@@ -738,8 +732,8 @@
   },
   "overrides" : {
     "composition" : [ {
-      "elementId" : "list__simple_1",
-      "elementLabel" : "List - Simple 1",
+      "elementId" : "file_document_list",
+      "elementLabel" : "File Document List",
       "propertyValues" : {
         "highlightedValueConfigId" : {
           "type" : "JSON_LITERAL",
@@ -1147,7 +1141,7 @@
             "items" : [{"element_id":"button_1","styles":{}},{"element_id":"button_2","styles":{}}],
             "root" : null,
             "rules" : null,
-            "styles" : {"flex-direction":"row","gap":"var(--now-static-space--sm)","justify-content":"flex-end"},
+            "styles" : {"flex-direction":"row","gap":"var(--now-static-space--sm)","justify-content":"flex-end","margin":"var(--now-static-space--lg)"},
             "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
             "type" : "flex"
           },
@@ -1168,7 +1162,7 @@
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"element_id":"list__simple_1","styles":{}},{"element_id":"container_2","styles":{"width":"100%"}}],
+        "items" : [{"element_id":"file_document_list","styles":{}},{"element_id":"container_2","styles":{"width":"100%","border-color":"RGB(var(--now-color--neutral-5))","border-width":"var(--now-static-space--xxs)","border-style":"id"}}],
         "root" : null,
         "rules" : null,
         "styles" : {"flex-direction":"column"},
@@ -1566,14 +1560,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 02:59:23</sys_created_on>
         <sys_id>1cfb1ac3936b311003a272918bba1009</sys_id>
-        <sys_mod_count>88</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="filelib" source="x_1067442_filelib">edc2d76293a3311003a272918bba10ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="filelib">edc2d76293a3311003a272918bba10ea</sys_scope>
         <sys_update_name>sys_ux_macroponent_1cfb1ac3936b311003a272918bba1009</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-31 06:41:44</sys_updated_on>
+        <sys_updated_on>2024-01-31 06:57:58</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=1cfb1ac3936b311003a272918bba1009"/>
 </record_update>

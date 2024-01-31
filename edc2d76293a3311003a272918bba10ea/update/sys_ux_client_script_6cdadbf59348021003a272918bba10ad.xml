@@ -2,7 +2,7 @@
     <sys_ux_client_script action="INSERT_OR_UPDATE">
         <includes/>
         <macroponent display_value="Default">1cfb1ac3936b311003a272918bba1009</macroponent>
-        <name>close_edit_modal</name>
+        <name>save_data</name>
         <preset/>
         <required_translations>[ ]</required_translations>
         <script><![CDATA[/**
@@ -13,21 +13,23 @@
 * @param {ApiHelpers} params.helpers
 */
 function handler({api, event, helpers, imports}) {
+    api.form_1.save();
+    api.form_1.refresh();
     helpers.modal.close('edit_modal');
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-30 19:20:50</sys_created_on>
-        <sys_id>806c34759300021003a272918bba101d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>close_edit_modal</sys_name>
+        <sys_created_on>2024-01-31 06:53:06</sys_created_on>
+        <sys_id>6cdadbf59348021003a272918bba10ad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>save_data</sys_name>
         <sys_package display_value="filelib" source="x_1067442_filelib">edc2d76293a3311003a272918bba10ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="filelib">edc2d76293a3311003a272918bba10ea</sys_scope>
-        <sys_update_name>sys_ux_client_script_806c34759300021003a272918bba101d</sys_update_name>
+        <sys_update_name>sys_ux_client_script_6cdadbf59348021003a272918bba10ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-31 06:57:40</sys_updated_on>
+        <sys_updated_on>2024-01-31 07:03:49</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
