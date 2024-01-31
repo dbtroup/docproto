@@ -4,7 +4,7 @@
         <category>page</category>
         <component_dependencies/>
         <composition>[ {
-  "elementId" : "custom_1",
+  "elementId" : "edit_modal",
   "elementLabel" : "edit_file_doc",
   "propertyValues" : {
     "labelledby" : {
@@ -489,7 +489,7 @@
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
                     "code" : null,
-                    "message" : "Enter a label",
+                    "message" : "Close without saving",
                     "comment" : ""
                   }
                 },
@@ -499,7 +499,7 @@
                 }
               },
               "eventMappings" : [ {
-                "eventMappingId" : "clsaaqryqeeaaccgiiccaahhoiiddthhffnggaa",
+                "eventMappingId" : "clsbbffnbbffcaaccjaccaahhozbbpeddddh",
                 "isConfiguration" : false,
                 "offRowStorageId" : null,
                 "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
@@ -512,21 +512,15 @@
                 "sourceEventSysId" : null,
                 "targets" : [ {
                   "broker" : null,
-                  "clientScript" : null,
+                  "clientScript" : {
+                    "sysId" : "806c34759300021003a272918bba101d"
+                  },
                   "conditional" : null,
                   "declarativeAction" : null,
                   "event" : null,
-                  "operation" : {
-                    "dataBrokerId" : "029f04e053610110ac9bddeeff7b1294",
-                    "operationName" : "RECORD#CLOSE_MODAL",
-                    "parentResourceId" : "form_1",
-                    "payload" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : { }
-                    }
-                  },
-                  "targetId" : "clsaaqryqeeaaccgjjccaahhogeeaakbbdrhh",
-                  "type" : "DATABROKER_OP"
+                  "operation" : null,
+                  "targetId" : "clsbbffnbbffcaaccjbccaahhohaamdiidddh",
+                  "type" : "CLIENT_SCRIPT"
                 } ]
               } ],
               "slot" : null,
@@ -576,7 +570,7 @@
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
                     "code" : null,
-                    "message" : "Enter a label",
+                    "message" : "Save and close",
                     "comment" : ""
                   }
                 },
@@ -1046,7 +1040,7 @@
                 "payload" : {
                   "type" : "JSON_LITERAL",
                   "value" : {
-                    "modalId" : "[component-id$='custom_2']",
+                    "modalId" : "[component-id$='custom_3']",
                     "showModal" : true,
                     "displayOptions" : null,
                     "bare" : true,
@@ -1119,7 +1113,7 @@
             }
           },
           "eventMappings" : [ {
-            "eventMappingId" : "clrbaazieggaacciddccaahhoqhhjztqrn",
+            "eventMappingId" : "clsbbgghhncbbaaccpffccaahhobmkorcciiq",
             "isConfiguration" : false,
             "offRowStorageId" : null,
             "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
@@ -1132,28 +1126,15 @@
             "sourceEventSysId" : null,
             "targets" : [ {
               "broker" : null,
-              "clientScript" : null,
+              "clientScript" : {
+                "sysId" : "ef9cd67d9344021003a272918bba10f1"
+              },
               "conditional" : null,
               "declarativeAction" : null,
-              "event" : {
-                "apiName" : "x_1067442_filelib.MODAL_SELECTED_RELAY_1cfb1ac3936b311003a272918bba1009",
-                "payload" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : {
-                    "modalId" : "[component-id$='custom_1']",
-                    "showModal" : true,
-                    "displayOptions" : null,
-                    "bare" : true,
-                    "viewportElementId" : null,
-                    "viewportRoute" : null,
-                    "viewportFields" : null
-                  }
-                },
-                "sysId" : "c7cb61339323b11003a272918bba107c"
-              },
+              "event" : null,
               "operation" : null,
-              "targetId" : "clrbaazieggaaccieeccaahhowbaaeemnyj",
-              "type" : "EVENT"
+              "targetId" : "clsbbgghhncccaaccpggccaahhotjeaqiaaq",
+              "type" : "CLIENT_SCRIPT"
             } ]
           } ],
           "slot" : "",
@@ -1874,306 +1855,6 @@
   "isNonDestructive" : false,
   "items" : [ ],
   "styles" : null
-}, {
-  "elementId" : "custom_3",
-  "elementLabel" : "Custom 3",
-  "propertyValues" : {
-    "labelledby" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "defer" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    },
-    "size" : {
-      "type" : "JSON_LITERAL",
-      "value" : "md"
-    },
-    "disableDismiss" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "bare" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    }
-  },
-  "eventMappings" : [ ],
-  "slot" : null,
-  "definition" : {
-    "id" : "9c2e3b0978b3250ef3081204f151026a",
-    "type" : "MACROPONENT"
-  },
-  "overrides" : {
-    "composition" : [ {
-      "elementId" : "header_3",
-      "elementLabel" : "Header 3",
-      "propertyValues" : {
-        "ariaRegionHeadingLevel" : {
-          "type" : "JSON_LITERAL",
-          "value" : "1"
-        },
-        "hideEmptyStateUi" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "ariaRegionName" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "code" : null,
-            "message" : "",
-            "comment" : ""
-          }
-        },
-        "includeAriaHeading" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "type" : {
-          "type" : "JSON_LITERAL",
-          "value" : "section"
-        },
-        "ariaRole" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : null,
-      "definition" : {
-        "id" : "d356d14b6e293a3020a244b63d278d8f",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : {
-        "composition" : [ ],
-        "layout" : {
-          "default" : {
-            "children" : null,
-            "isInline" : null,
-            "items" : [],
-            "root" : null,
-            "rules" : null,
-            "styles" : {"flex-direction":"column"},
-            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-            "type" : "flex"
-          },
-          "version" : "3.0.0"
-        }
-      },
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : null
-      },
-      "isHero" : false,
-      "extensionPoints" : [ ],
-      "isNonDestructive" : false,
-      "items" : [ ],
-      "styles" : null
-    }, {
-      "elementId" : "body_3",
-      "elementLabel" : "Body 3",
-      "propertyValues" : {
-        "ariaRegionHeadingLevel" : {
-          "type" : "JSON_LITERAL",
-          "value" : "1"
-        },
-        "hideEmptyStateUi" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "ariaRegionName" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "code" : null,
-            "message" : "",
-            "comment" : ""
-          }
-        },
-        "includeAriaHeading" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "type" : {
-          "type" : "JSON_LITERAL",
-          "value" : "section"
-        },
-        "ariaRole" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : null,
-      "definition" : {
-        "id" : "d356d14b6e293a3020a244b63d278d8f",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : {
-        "composition" : [ {
-          "elementId" : "record_templates_1",
-          "elementLabel" : "Record templates 1",
-          "propertyValues" : {
-            "sysId" : {
-              "type" : "DATA_OUTPUT_BINDING",
-              "binding" : {
-                "address" : [ "form_1", "sysId" ]
-              }
-            },
-            "refreshRequested" : {
-              "type" : "JSON_LITERAL",
-              "value" : { }
-            },
-            "hideMyTemplates" : {
-              "type" : "JSON_LITERAL",
-              "value" : false
-            },
-            "fields" : {
-              "type" : "DATA_OUTPUT_BINDING",
-              "binding" : {
-                "address" : [ "form_1", "form", "fields" ]
-              }
-            },
-            "table" : {
-              "type" : "DATA_OUTPUT_BINDING",
-              "binding" : {
-                "address" : [ "form_1", "table" ]
-              }
-            }
-          },
-          "eventMappings" : [ ],
-          "slot" : null,
-          "definition" : {
-            "id" : "9fa0b553c3649c0254f64f3a7983e61e",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "isHero" : false,
-          "preset" : {
-            "controllerElementId" : "form_1",
-            "disabledEventTargetIds" : [ ],
-            "id" : "7288829a5f3eac46f3ba9b509e985f1e"
-          },
-          "extensionPoints" : [ ],
-          "isNonDestructive" : false,
-          "items" : [ ],
-          "styles" : null
-        } ],
-        "layout" : {
-          "default" : {
-            "children" : null,
-            "isInline" : null,
-            "items" : [{"element_id":"record_templates_1","styles":{}}],
-            "root" : null,
-            "rules" : null,
-            "styles" : {"flex-direction":"column"},
-            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-            "type" : "flex"
-          },
-          "version" : "3.0.0"
-        }
-      },
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : null
-      },
-      "isHero" : false,
-      "extensionPoints" : [ ],
-      "isNonDestructive" : false,
-      "items" : [ ],
-      "styles" : null
-    }, {
-      "elementId" : "footer_3",
-      "elementLabel" : "Footer 3",
-      "propertyValues" : {
-        "ariaRegionHeadingLevel" : {
-          "type" : "JSON_LITERAL",
-          "value" : "1"
-        },
-        "hideEmptyStateUi" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "ariaRegionName" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "code" : null,
-            "message" : "",
-            "comment" : ""
-          }
-        },
-        "includeAriaHeading" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "type" : {
-          "type" : "JSON_LITERAL",
-          "value" : "section"
-        },
-        "ariaRole" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : null,
-      "definition" : {
-        "id" : "d356d14b6e293a3020a244b63d278d8f",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : {
-        "composition" : [ ],
-        "layout" : {
-          "default" : {
-            "children" : null,
-            "isInline" : null,
-            "items" : [],
-            "root" : null,
-            "rules" : null,
-            "styles" : {"flex-direction":"column"},
-            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-            "type" : "flex"
-          },
-          "version" : "3.0.0"
-        }
-      },
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : null
-      },
-      "isHero" : false,
-      "extensionPoints" : [ ],
-      "isNonDestructive" : false,
-      "items" : [ ],
-      "styles" : null
-    } ],
-    "layout" : {
-      "default" : {
-        "children" : null,
-        "isInline" : null,
-        "items" : [{"element_id":"header_3","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column"}},{"element_id":"body_3","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column","flex-grow":1.5}},{"element_id":"footer_3","rules":null,"styles":{"width":"100%","display":"flex","flex-direction":"column"}}],
-        "root" : null,
-        "rules" : null,
-        "styles" : {"flex-direction":"column","gap":"var(--now-static-space--lg)"},
-        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-        "type" : "flex"
-      },
-      "version" : "3.0.0"
-    }
-  },
-  "isHidden" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  },
-  "isHero" : false,
-  "extensionPoints" : [ ],
-  "isNonDestructive" : false,
-  "items" : [ ],
-  "styles" : null
 } ]</composition>
         <da_relay_models/>
         <data>[ {
@@ -2509,6 +2190,9 @@
   "message" : "Cancel",
   "comment" : ""
 }, {
+  "message" : "Close without saving",
+  "comment" : ""
+}, {
   "message" : "Edit",
   "comment" : ""
 }, {
@@ -2531,6 +2215,9 @@
   "comment" : ""
 }, {
   "message" : "Save",
+  "comment" : ""
+}, {
+  "message" : "Save and close",
   "comment" : ""
 }, {
   "message" : "Update",
@@ -2559,14 +2246,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 02:59:23</sys_created_on>
         <sys_id>1cfb1ac3936b311003a272918bba1009</sys_id>
-        <sys_mod_count>79</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="filelib" source="x_1067442_filelib">edc2d76293a3311003a272918bba10ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="filelib">edc2d76293a3311003a272918bba10ea</sys_scope>
         <sys_update_name>sys_ux_macroponent_1cfb1ac3936b311003a272918bba1009</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-30 19:20:35</sys_updated_on>
+        <sys_updated_on>2024-01-31 02:31:06</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=1cfb1ac3936b311003a272918bba1009"/>
 </record_update>
