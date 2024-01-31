@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Default">1cfb1ac3936b311003a272918bba1009</macroponent>
+        <name>save_data</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    api.form_1.save();
+    api.form_1.refresh();
+    helpers.modal.close('edit_modal');
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 06:53:06</sys_created_on>
+        <sys_id>6cdadbf59348021003a272918bba10ad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>save_data</sys_name>
+        <sys_package display_value="filelib" source="x_1067442_filelib">edc2d76293a3311003a272918bba10ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="filelib">edc2d76293a3311003a272918bba10ea</sys_scope>
+        <sys_update_name>sys_ux_client_script_6cdadbf59348021003a272918bba10ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 07:03:49</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="filelib">edc2d76293a3311003a272918bba10ea</application>
+        <file_path/>
+        <instance_id>14ed0d2ddb62bdd8ae4c9027c5961940</instance_id>
+        <instance_name>dev213435</instance_name>
+        <name>sys_ux_client_script_6cdadbf59348021003a272918bba10ad</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;1cfb1ac3936b311003a272918bba1009&lt;/macroponent&gt;&lt;name&gt;save_data&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    api.form_1.save();
+    api.form_1.refresh();
+    helpers.modal.close('edit_modal');
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-31 06:53:06&lt;/sys_created_on&gt;&lt;sys_id&gt;6cdadbf59348021003a272918bba10ad&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;save_data&lt;/sys_name&gt;&lt;sys_package display_value="filelib" source="x_1067442_filelib"&gt;edc2d76293a3311003a272918bba10ea&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="filelib"&gt;edc2d76293a3311003a272918bba10ea&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_6cdadbf59348021003a272918bba10ad&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-31 07:03:49&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1593931969</payload_hash>
+        <record_name>save_data</record_name>
+        <reverted_from/>
+        <source>f32d589293f7711003a272918bba1025</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 07:03:49</sys_created_on>
+        <sys_id>bd4d9bf99348021003a272918bba100b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d5e54c3200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 07:03:49</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>354d9bf9bb4802100050969cf5b1930b</update_guid>
+        <update_guid_history>354d9bf9bb4802100050969cf5b1930b:-1593931969,abdb53b988480210d6802c9a95875686:-1391617813,7cda9379e54802105b358f70617ca20a:518487309</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 19:44:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>85974abab7ed455ba95c58020b851ea9</sys_id>
+        <sys_metadata>6cdadbf59348021003a272918bba10ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>save_data</sys_name>
+        <sys_package display_value="filelib" source="x_1067442_filelib">edc2d76293a3311003a272918bba10ea</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="filelib">edc2d76293a3311003a272918bba10ea</sys_scope>
+        <sys_scope_delete display_value="">2d33d552bbc049a89df828d2282cb2c9</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_6cdadbf59348021003a272918bba10ad</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_6cdadbf59348021003a272918bba10ad">bd4d9bf99348021003a272918bba100b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 19:44:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -139,11 +139,9 @@
               "value" : false
             },
             "label" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "code" : null,
-                "message" : "Update ",
-                "comment" : ""
+              "type" : "STATE_BINDING",
+              "binding" : {
+                "address" : [ "modalAction" ]
               }
             }
           },
@@ -593,15 +591,49 @@
                 "sourceEventSysId" : null,
                 "targets" : [ {
                   "broker" : null,
+                  "clientScript" : null,
+                  "conditional" : null,
+                  "declarativeAction" : null,
+                  "event" : null,
+                  "operation" : {
+                    "dataBrokerId" : "029f04e053610110ac9bddeeff7b1294",
+                    "operationName" : "CTRL_RECORD#SAVE_FORM",
+                    "parentResourceId" : "form_1",
+                    "payload" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : { }
+                    }
+                  },
+                  "targetId" : "clsccggmulpaaccgjjccaahhojuhhsviirp",
+                  "type" : "DATABROKER_OP"
+                }, {
+                  "broker" : null,
                   "clientScript" : {
-                    "sysId" : "6cdadbf59348021003a272918bba10ad"
+                    "sysId" : "806c34759300021003a272918bba101d"
                   },
                   "conditional" : null,
                   "declarativeAction" : null,
                   "event" : null,
                   "operation" : null,
-                  "targetId" : "clsbbfqyqaaaaccmqccaahhosvqkccpccii",
+                  "targetId" : "clsccggqaabbffaacchaaccaahhotjjcjjtjjga",
                   "type" : "CLIENT_SCRIPT"
+                }, {
+                  "broker" : null,
+                  "clientScript" : null,
+                  "conditional" : null,
+                  "declarativeAction" : null,
+                  "event" : null,
+                  "operation" : {
+                    "dataBrokerId" : "21f155c65310101024e5ddeeff7b1210",
+                    "operationName" : "REFRESH",
+                    "parentResourceId" : "gliderecord_collection_query_1",
+                    "payload" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : { }
+                    }
+                  },
+                  "targetId" : "clsccggriaccaacchlccaahhoavojjeeqggj",
+                  "type" : "DATABROKER_OP"
                 } ]
               } ],
               "slot" : null,
@@ -1110,7 +1142,24 @@
               "clientScript" : {
                 "sysId" : "ef9cd67d9344021003a272918bba10f1"
               },
-              "conditional" : null,
+              "conditional" : {
+                "type" : "UNARY",
+                "operation" : {
+                  "operand" : {
+                    "type" : "UNARY",
+                    "operation" : {
+                      "operand" : {
+                        "type" : "STATE_BINDING",
+                        "binding" : {
+                          "address" : [ "selectedFile" ]
+                        }
+                      },
+                      "operator" : "NOT"
+                    }
+                  },
+                  "operator" : "NOT"
+                }
+              },
               "declarativeAction" : null,
               "event" : null,
               "operation" : null,
@@ -1229,39 +1278,6 @@
     "returnRowCount" : {
       "type" : "JSON_LITERAL",
       "value" : true
-    },
-    "returnTableMetadata" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    },
-    "returnFieldMetadata" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    }
-  },
-  "readEvaluationMode" : "EAGER"
-}, {
-  "cachePolicy" : null,
-  "definition" : {
-    "id" : "9664d48053461010cbc2ddeeff7b128e",
-    "type" : "COMPOSITE"
-  },
-  "dependencies" : { },
-  "elementId" : "look_up_record_1",
-  "elementLabel" : "Look Up Record 1",
-  "eventMappings" : [ ],
-  "inputValues" : {
-    "table" : {
-      "type" : "JSON_LITERAL",
-      "value" : "x_1067442_filelib_file_document"
-    },
-    "recordId" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "returnFields" : {
-      "type" : "JSON_LITERAL",
-      "value" : "active,approver,sys_created_on,sys_created_by,name,status,sys_id,upload"
     },
     "returnTableMetadata" : {
       "type" : "JSON_LITERAL",
@@ -1536,9 +1552,6 @@
 }, {
   "message" : "Update",
   "comment" : ""
-}, {
-  "message" : "Update ",
-  "comment" : ""
 } ]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
@@ -1555,19 +1568,30 @@
     "type" : "JSON_LITERAL",
     "value" : null
   }
+}, {
+  "name" : "modalAction",
+  "label" : "modalAction",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  }
 } ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 02:59:23</sys_created_on>
         <sys_id>1cfb1ac3936b311003a272918bba1009</sys_id>
-        <sys_mod_count>92</sys_mod_count>
+        <sys_mod_count>100</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="filelib" source="x_1067442_filelib">edc2d76293a3311003a272918bba10ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="filelib">edc2d76293a3311003a272918bba10ea</sys_scope>
         <sys_update_name>sys_ux_macroponent_1cfb1ac3936b311003a272918bba1009</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-31 06:57:58</sys_updated_on>
+        <sys_updated_on>2024-01-31 19:47:49</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=1cfb1ac3936b311003a272918bba1009"/>
 </record_update>
