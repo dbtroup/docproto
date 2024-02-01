@@ -609,31 +609,25 @@
                 }, {
                   "broker" : null,
                   "clientScript" : {
+                    "sysId" : "0c1cd3829344021003a272918bba1091"
+                  },
+                  "conditional" : null,
+                  "declarativeAction" : null,
+                  "event" : null,
+                  "operation" : null,
+                  "targetId" : "clsccjskbbraaccjfccaahhououfftymf",
+                  "type" : "CLIENT_SCRIPT"
+                }, {
+                  "broker" : null,
+                  "clientScript" : {
                     "sysId" : "806c34759300021003a272918bba101d"
                   },
                   "conditional" : null,
                   "declarativeAction" : null,
                   "event" : null,
                   "operation" : null,
-                  "targetId" : "clsccggqaabbffaacchaaccaahhotjjcjjtjjga",
+                  "targetId" : "clsccjsomzaaccjjccaahhojddoghhwud",
                   "type" : "CLIENT_SCRIPT"
-                }, {
-                  "broker" : null,
-                  "clientScript" : null,
-                  "conditional" : null,
-                  "declarativeAction" : null,
-                  "event" : null,
-                  "operation" : {
-                    "dataBrokerId" : "21f155c65310101024e5ddeeff7b1210",
-                    "operationName" : "REFRESH",
-                    "parentResourceId" : "gliderecord_collection_query_1",
-                    "payload" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : { }
-                    }
-                  },
-                  "targetId" : "clsccggriaccaacchlccaahhoavojjeeqggj",
-                  "type" : "DATABROKER_OP"
                 } ]
               } ],
               "slot" : null,
@@ -844,8 +838,10 @@
           "value" : "active=true"
         },
         "refreshRequested" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "listRefresh" ]
+          }
         },
         "hideHighlightContent" : {
           "type" : "JSON_LITERAL",
@@ -862,10 +858,7 @@
             "color" : ""
           }
         },
-        "hideRefreshButton" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
+        "hideRefreshButton" : null,
         "listTitle" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
@@ -900,7 +893,7 @@
         },
         "hidePersonalization" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "hideViewAll" : {
           "type" : "JSON_LITERAL",
@@ -1579,19 +1572,30 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   }
+}, {
+  "name" : "listRefresh",
+  "label" : "listRefresh",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
 } ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 02:59:23</sys_created_on>
         <sys_id>1cfb1ac3936b311003a272918bba1009</sys_id>
-        <sys_mod_count>100</sys_mod_count>
+        <sys_mod_count>105</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="filelib" source="x_1067442_filelib">edc2d76293a3311003a272918bba10ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="filelib">edc2d76293a3311003a272918bba10ea</sys_scope>
         <sys_update_name>sys_ux_macroponent_1cfb1ac3936b311003a272918bba1009</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-31 19:47:49</sys_updated_on>
+        <sys_updated_on>2024-02-01 02:13:06</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=1cfb1ac3936b311003a272918bba1009"/>
 </record_update>
